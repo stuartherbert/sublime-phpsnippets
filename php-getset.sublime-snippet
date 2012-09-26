@@ -41,9 +41,10 @@ public function get${1/(.*)/\u$1/:[ Prop name ]}()
  * @param  [type] \$${1:[ Prop name ]} [description]
  * @return [class type]    \$this
  */
-public function set${1/(.*)/\u$1/:[ Prop name ]}(\$new${1/(.*)/\u$1/:[ Prop name ]})
+public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]})
 {
-    \$this->${1:[Prop name ]} = \$new${1/(.*)/\u$1/:[ Prop name ]};
+    \$this->${1:[Prop name ]} = \$${1/(.*)/$1/:[ Prop name ]};
+
     return \$this;
 }
 ]]></content>
