@@ -26,23 +26,20 @@
     <content><![CDATA[
 
 /**
- * [get${1/(.*)/\u$1/:[ Prop name ]}() description here]
+ * ${2:[description here]}
  *
- * @return [type] [description]
+ * @return ${3:[type]} ${4:[description]}
  */
-public function get${1/(.*)/\u$1/:[ Prop name ]}()
-{
+public function get${1/(.*)/\u$1/:[ Prop name ]}() {
     return \$this->${1:[ Prop name ]};
 }
 
 /**
- * [set${1/(.*)/\u$1/:[ Prop name ]}() description here]
+ * ${5:[Description]}
  *
- * @param  [type] \$${1:[ Prop name ]} [description]
- * @return [class type]    \$this
+ * @param ${3/(.*)/\u$1/:[type]} \$new${1:[ Prop name ]} ${4/(.*)/\u$1/:[description]}
  */
-public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]})
-{
+public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]}) {
     \$this->${1:[Prop name ]} = \$${1/(.*)/$1/:[ Prop name ]};
 
     return \$this;
