@@ -39,8 +39,7 @@ public function get${1/(.*)/\u$1/:[ Prop name ]}() {
  *
  * @param ${3/(.*)/\u$1/:[type]} \$new${1:[ Prop name ]} ${4/(.*)/\u$1/:[description]}
  */
-public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]})
-{
+public function set${1/(.*)/\u$1/:[ Prop name ]}(\$${1/(.*)/$1/:[ Prop name ]}) {
     \$this->${1:[Prop name ]} = \$${1/(.*)/$1/:[ Prop name ]};
 
     return \$this;
