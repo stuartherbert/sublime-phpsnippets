@@ -38,13 +38,14 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
- * @package     ${2:[ Package ]}
- * @subpackage  ${3:[ Subpackage ]}
- * @author      ${4:[ Your name ]} <${5:[ Your email address ]}>
- * @copyright   2012 ${1:[ Copyright holder ]}.
- * @license     http://www.opensource.org/licenses/mit-license.php  MIT License
- * @link        http://${6:[ Your website ]}
- * @version     @@PACKAGE_VERSION@@
+ * @category   ${3:[ Category ]}
+ * @package    ${4:[ Package ]}
+ * @subpackage ${5:[ Subpackage ]}
+ * @author     ${1:[ Your name ]} <${2:[ [Your email ]}>
+ * @copyright  2012 ${1:[ Your name ]}.
+ * @license    http://www.opensource.org/licenses/mit-license.php  MIT License
+ * @version    ${6:[ Version ]}
+ * @link       http://${7:[ Your website ]}
  */
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
