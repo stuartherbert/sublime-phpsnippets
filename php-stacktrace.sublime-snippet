@@ -1,0 +1,25 @@
+<!--
+    php-stacktrace
+        Insert stacktrack in your error_log. This is useful if you need to quickly see the call stack for an unfamiliar peice of code that's deep within a system.
+
+    HOW TO USE
+        In your PHP class, simply type the following:
+
+            php-stack-trace<TAB>
+
+        Sublime Text will add the stacktrace code for you. Then use <TAB> to add a grep friendly token to your log message.
+-->
+<snippet>
+    <content><![CDATA[
+\$e = new Exception;
+
+error_log('========================================================', 0);
+error_log('${1:[ Grep friendly token goes here ... ]}', 0);
+error_log(var_export(\$e->getTraceAsString(), true));
+error_log('--------------------------------------------------------', 0);
+
+]]></content>
+    <tabTrigger>php-stack-trace</tabTrigger>
+    <scope>source.php</scope>
+    <description>Purposely create an exception to print nice stack trace in your php error log.</description>
+</snippet>
