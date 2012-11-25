@@ -27,7 +27,7 @@ __ For PHP files:__
 * __php-newbsd__: insert the new BSD license as a PHP docblock
 * __php-section-comment__: insert a prominent comment to help break up the sections of your class
 * __php-stack-trace__: purposely insert a prominent stack trace in your error_log to find the call path to unfamiliar code. 
-
+* __php-unit-test__: Generates PHPUnit scaffolding for a particular SUT (system under test).
 
 Contributions Welcome
 ---------------------
